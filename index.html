@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cell Transport Showdown</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1> Cell Transport Showdown</h1>
+
+        <div class="stats">
+            <div>ATP: <span id="score">0</span></div>
+            <div>Lives: <span id="lives">3</span></div>
+            <div>Streak: <span id="streak">0</span></div>
+            <div>Time: <span id="timer">15</span>s</div>
+        </div>
+
+        <div class="quiz-box">
+            <h2 id="question">Press Start to Begin</h2>
+            <div id="answers" class="answers"></div>
+        </div>
+
+        <div class="controls">
+            <button id="startBtn">Start Game</button>
+            <button id="restartBtn" class="hidden">Restart</button>
+        </div>
+
+        <div id="feedback" class="feedback"></div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
